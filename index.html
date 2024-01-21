@@ -1,0 +1,140 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar task</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color:rgb(184, 182, 182);
+    color: black;
+    padding: 10px 20px;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center; 
+}
+
+.navbar .logo img {
+    height: 100px; 
+    
+
+}
+
+.nav-items {
+    display: flex; 
+    align-items: center; 
+}
+
+.nav-items a {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.nav-items img {
+    height: 25px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 160px;
+    
+    
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown a {
+    line-height: 1.5; 
+    font-size: 16px;
+}
+
+
+ </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://th.bing.com/th/id/OIP.R--2Vmz1XT2Ap_BB7NXtqAAAAA?rs=1&pid=ImgDetMain" alt="Logo">
+        </div>
+        <div class="nav-items">
+            <div class="dropdown">
+                <a href="#">Products <img src="https://th.bing.com/th/id/OIP.hh62lwarRlHILH1gLovszQHaHa?pid=ImgDet&w=474&h=474&rs=1" alt=""></a>
+                <div class="dropdown-content">
+                    <a href="#">Option 1</a>
+                    <a href="#">Option 2</a>
+                    <a href="#">Option 3</a>
+                    <a href="#">Option 4</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#">Pricing <img src="https://th.bing.com/th/id/OIP.hh62lwarRlHILH1gLovszQHaHa?pid=ImgDet&w=474&h=474&rs=1" alt=""></a>
+                <div class="dropdown-content">
+                    <a href="#">Option 1</a>
+                    <a href="#">Option 2</a>
+                    <a href="#">Option 3</a>
+                    <a href="#">Option 4</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#">Resources <img src="https://th.bing.com/th/id/OIP.hh62lwarRlHILH1gLovszQHaHa?pid=ImgDet&w=474&h=474&rs=1" alt=""></a>
+                <div class="dropdown-content">
+                    <a href="#">Option 1</a>
+                    <a href="#">Option 2</a>
+                    <a href="#">Option 3</a>
+                    <a href="#">Option 4</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#">About us <img src="https://th.bing.com/th/id/OIP.hh62lwarRlHILH1gLovszQHaHa?pid=ImgDet&w=474&h=474&rs=1" alt=""></a>
+                <div class="dropdown-content">
+                    <a href="#">Option 1</a>
+                    <a href="#">Option 2</a>
+                    <a href="#">Option 3</a>
+                    <a href="#">Option 4</a>
+                </div>
+            </div>
+            <img src="https://th.bing.com/th/id/OIP.6ut87IN-F2ze4IrEzcpqIQHaHa?rs=1&pid=ImgDetMain" alt="">
+            
+        </div>
+    </nav>
+
+    
+    
+</body>
+
+</html>
